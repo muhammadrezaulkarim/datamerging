@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configuration>
+    <CsvFileDateTimeFormat>yyyy-MM-dd hh:mm:ss</CsvFileDateTimeFormat>
+    <XmlFileDateTimeFormat>yyyy-MM-dd hh:mm:ss</XmlFileDateTimeFormat>
+    <JsonFileDateTimeFormat>yyyy-MM-dd hh:mm:ss</JsonFileDateTimeFormat>
+</configuration>  
