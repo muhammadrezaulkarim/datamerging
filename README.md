@@ -115,17 +115,17 @@ F. Sample Output:
 
 1. service-guid wise record count:   
 
-service-guid | count
+| service-guid | count
 
-0342f6df-6e8c-48c3-8390-667eb678638b | 12
+| 0342f6df-6e8c-48c3-8390-667eb678638b | 12
 
-0a5f0733-d058-4738-8666-f0468c5ee9c3 | 20 
+| 0a5f0733-d058-4738-8666-f0468c5ee9c3 | 20 
 
-0d5157f7-8012-4455-b66f-4f81d14092b3 | 18  
+| 0d5157f7-8012-4455-b66f-4f81d14092b3 | 18  
 
-0ee908d7-d767-4da5-9cbe-fc78e9c6a192 | 10
+| 0ee908d7-d767-4da5-9cbe-fc78e9c6a192 | 10
 
-147fe620-dd62-4eb6-9a0d-8b8ca1e743b1 | 20
+| 147fe620-dd62-4eb6-9a0d-8b8ca1e743b1 | 20
 
 Only 5 rows displayed here.
 
