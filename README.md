@@ -10,9 +10,7 @@ B. Execute in Windows 10 without Setting Up any Apache Spark Cluster:
 
 Set up Hadoop for Windows Binaries:
 
-1. Download the content of the entire folder in your local desktop/laptop from GitHub
-
-https://github.com/steveloughran/winutils/tree/master/hadoop-3.0.0
+1. Download the content of the entire folder in your local desktop/laptop from GitHub (https://github.com/steveloughran/winutils/tree/master/hadoop-3.0.0):
 
 git clone https://github.com/steveloughran/winutils.git
 
@@ -23,6 +21,7 @@ git clone https://github.com/steveloughran/winutils.git
 3. Set up a Windows environment variable for Hadoop:
 
 variable name: HADOOP_HOME
+
 variable value: C:\Users\UserX\hadoop-3.0.0
 
 Add the following entry in Windows system variable path:
@@ -100,6 +99,7 @@ C:\Users\UserX\apache-maven-3.6.3
 3. Set up a Windows environment variable for Maven:
 
 variable name: MAVEN_HOME
+
 variable value: C:\Users\UserX\apache-maven-3.6.3
 
 Add the following entry in Windows system variable path:
