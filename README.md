@@ -125,8 +125,9 @@ service-guid | count
 
 0ee908d7-d767-4da5-9cbe-fc78e9c6a192 | 10
 
-...
+147fe620-dd62-4eb6-9a0d-8b8ca1e743b1 | 20
 
+Only 5 rows displayed here.
 
 2. Output CSV file:
 https://github.com/muhammadrezaulkarim/datamerging/blob/master/com.problemset.rezaul.datamerging/data/output.csv/part-00000-9f4adc11-1ecf-4bb3-8c19-95fd0cafc155-c000.csv
