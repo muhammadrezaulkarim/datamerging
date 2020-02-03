@@ -1,18 +1,22 @@
 
-A. Why Apache Spark?
+A. Why Apache Spark and Maven?
 
 Apache Spark is an open source distributed cluster-computing framework for processing big data. It is a unified analytics engine for big data and supports batch and stream data processing, machine learning and distributed graph processing. 
 
 Even though the given csv, xml and json data sets are very small, Apache Spark has been used considering its abilty to process data of any size.
 
+Maven is a widely used build automation tool.
 
 B. Execute in Windows 10 without Setting Up any Apache Spark Cluster:
 
 Set up Hadoop for Windows Binaries:
 
-1. Download the content of the entire folder in your local desktop/laptop from GitHub (https://github.com/steveloughran/winutils/tree/master/hadoop-3.0.0):
+1. Download the content of the entire folder in your local desktop/laptop from GitHub (Link: https://github.com/steveloughran/winutils/tree/master/hadoop-3.0.0):
+
+Following command can aslo be used to download with git tool:
 
 git clone https://github.com/steveloughran/winutils.git
+
 
 2. Copy the content in your destination directory. For example: C:\Users\UserX\hadoop-3.0.0
 
@@ -55,7 +59,7 @@ java -jar target/datamerging-1.0.0-SNAPSHOT-jar-with-dependencies.jar local
 
 The argument 'local' is required to run the program in local desktop/laptop without the need for setting up Apache Spark Cluster.
 
-4. The output csv file will be stored in the "data\output.csv" directory with the project. 'service-guid' wise record count will be displayed on the command prompt.
+4. The output csv file will be stored in the "data\output.csv" directory with the project. 'service-guid' wise record count will be displayed on the command prompt
 
 
 C. Execute in Apache Spark Linux Cluster (Optional):
