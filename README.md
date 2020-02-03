@@ -1,18 +1,14 @@
 
-Why Apache Spark?
-
-.................
+A. Why Apache Spark?
 
 Apache Spark is an open source distributed cluster-computing framework for processing big data. It is a unified analytics engine for big data and supports batch and stream data processing, machine learning and distributed graph processing. 
 
 Even though the given csv, xml and json data sets are very small, Apache Spark has been used considering its abilty to process data of any size.
 
 
-Execute in Windows 10 without Setting Up any Apache Spark Cluster:
+B. Execute in Windows 10 without Setting Up any Apache Spark Cluster:
 
-..................................................................
-
-Set up Hadoop for Windows:
+Set up Hadoop for Windows Binaries:
 
 1. Download the content of the entire folder in your local desktop/laptop from GitHub
 
@@ -63,10 +59,7 @@ The argument 'local' is required to run the program in local desktop/laptop with
 4. The output csv file will be stored in the "data\output.csv" directory with the project. 'service-guid' wise record count will be displayed on the command prompt.
 
 
-Execute in Apache Spark Linux Cluster (Optional):
-
-.................................................
-
+C. Execute in Apache Spark Linux Cluster (Optional):
 
 1. Build the project with Maven as described earlier
 
@@ -87,17 +80,12 @@ You need to replace 'spark://spark-master:7077' with your Apache Spark Cluster M
 You might also have to replace the path for spark-submit command '/opt/spark/bin/spark-submit' depending on where it has been installed in the master node.
 
 
-Execute in Apache Spark on Amazon EMR (Cloud):
-
-.................................................
+D. Execute in Apache Spark on Amazon EMR (Cloud):
 
 If you already have a Apache Spark Cluster in Amazon EMR, you can also use spark-submit to execute the program.
 
 
-Set Up Maven in Windows 10:
-
-........................---
-
+E. Set Up Maven in Windows 10:
 
 1. Download Apache Maven from here:
 
