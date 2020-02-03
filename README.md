@@ -59,7 +59,7 @@ java -jar target/datamerging-1.0.0-SNAPSHOT-jar-with-dependencies.jar local
 
 The argument 'local' is required to run the program in local desktop/laptop without the need for setting up Apache Spark Cluster.
 
-4. The output csv file will be stored in the "data\output.csv" directory with the project. 'service-guid' wise record count will be displayed on the command prompt
+4. The output csv file will be stored in the "data\output.csv" directory within the project. 'service-guid' wise record count will be displayed on the command prompt
 
 
 C. Execute in Apache Spark Linux Cluster (Optional):
