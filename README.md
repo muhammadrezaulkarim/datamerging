@@ -57,7 +57,7 @@ mvn -U clean package
 
 java -jar target/datamerging-1.0.0-SNAPSHOT-jar-with-dependencies.jar local
 
-The argument 'local' is required to run the program in local desktop/laptop without the need for setting up Apache Spark Cluster.
+The argument 'local' is required to run the program in local desktop/laptop without the need for setting up Apache Spark Cluster. Java 8 is a pre-requisite for this project. Java can be downloaded from this Link: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 4. The output csv file will be stored in the "data\output.csv" directory within the project. 'service-guid' wise record count will be displayed on the command prompt
 
