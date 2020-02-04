@@ -9,11 +9,11 @@ Maven is a widely used build automation tool.
 
 B. Execute in Windows 10 without Setting Up any Apache Spark Cluster:
 
-Set up Hadoop for Windows Binaries:
+Set Up Windows Binaries for Hadoop:
 
 1. Download the content of the entire folder in your local desktop/laptop from GitHub (Link: https://github.com/steveloughran/winutils/tree/master/hadoop-3.0.0):
 
-Following command can aslo be used to download with git tool:
+Following command can also be used instead to download with the git tool:
 
 git clone https://github.com/steveloughran/winutils.git
 
@@ -28,7 +28,7 @@ variable name: HADOOP_HOME
 
 variable value: C:\Users\UserX\hadoop-3.0.0
 
-Add the following entry in Windows system variable path:
+Add the following entry in the Windows system variable path:
 
 %HADOOP_HOME%\bin
 
@@ -39,7 +39,7 @@ Download Source Code:
 
 git clone git@github.com:muhammadrezaulkarim/datamerging.git
 
-Assume the project has been downloaded here: 'C:\Users\UserX\datamerging-master'. 'UserX' needs to be replaced with actual Windows user.
+Assume the project has been downloaded here: 'C:\Users\UserX\datamerging-master'. 'UserX' needs to be replaced with actual Windows user name.
 
 
 Build and Execute the Program:
@@ -68,9 +68,9 @@ C. Execute in Apache Spark Linux Cluster (Optional):
 
 2. Copy the 'config' and 'data' directories from your project main directory to the 'target' directory
 
-3. Copy the target directory to the master node of the Apache Spark Linux Cluster. Assume copied to the '/tmp' directory in the master node
+3. Copy the 'target' directory to the master node of the Apache Spark Linux Cluster. Assume it has been copied to the '/tmp' directory in the master node
 
-4. Move to the target directory running the following command:
+4. Move to the 'target' directory running the following command:
 
 cd target
 
@@ -83,18 +83,18 @@ You need to replace 'spark://spark-master:7077' with your Apache Spark Cluster M
 You might also have to replace the path for spark-submit command '/opt/spark/bin/spark-submit' depending on where it has been installed in the master node.
 
 
-D. Execute in Apache Spark on Amazon EMR (Cloud):
+D. Execute in Apache Spark Cluster on Amazon EMR (Cloud):
 
-If you already have a Apache Spark Cluster in Amazon EMR, you can also use spark-submit to execute the program.
+If you already have a Apache Spark Cluster in Amazon EMR, you can also use 'spark-submit' to execute the program.
 
 
 E. Set Up Maven in Windows 10:
 
-1. Download Apache Maven from here:
+1. Download Apache Maven from the following link:
 
 https://www-eu.apache.org/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip
 
-2. Unzip and place the 'apache-maven-3.6.3' directory here:
+2. Unzip and place the the files a directory like this:
 
 C:\Users\UserX\apache-maven-3.6.3
 
